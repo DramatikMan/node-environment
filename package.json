@@ -1,0 +1,15 @@
+{
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/core": "*",
+      "@babel/plugin-transform-runtime": "*",
+      "babel-loader": "*",
+      "ts-loader": "*",
+      "typescript": "*",
+      "webpack": "*",
+      "webpack-cli": "*"
+    },
+    "scripts": {
+      "dev": "webpack --mode development --watch"
+    }
+}
