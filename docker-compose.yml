@@ -6,7 +6,6 @@ services:
       context: .
     volumes:
      - ./src:/project/src
-     - ./babel.config.json:/project/babel.config.json
+     - ./.eslintrc.json:/project/.eslintrc.json
      - ./package.json:/project/package.json
      - ./tsconfig.json:/project/tsconfig.json
-     - ./webpack.config.js:/project/webpack.config.js

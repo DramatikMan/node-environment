@@ -1,15 +1,19 @@
 {
-    "dependencies": {},
-    "devDependencies": {
-      "@babel/core": "*",
-      "@babel/plugin-transform-runtime": "*",
-      "@babel/preset-react": "*",
-      "babel-loader": "*",
-      "typescript": "*",
-      "webpack": "*",
-      "webpack-cli": "*"
-    },
-    "scripts": {
-      "dev": "webpack --mode development --watch"
-    }
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/plugin-transform-runtime": "*",
+    "@babel/preset-react": "*",
+    "babel-loader": "*",
+    "typescript": "*",
+    "eslint": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "prod": "webpack --mode production",
+    "lint": "eslint src"
+  }
 }
