@@ -6,7 +6,7 @@ COPY .eslintrc.json \
     babel.config.json \
     package.json \
     tsconfig.json \
-    webpack.config.js \
+    webpack.config.cjs \
     ./
 COPY src src
 RUN npm install --no-package-lock

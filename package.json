@@ -1,9 +1,9 @@
 {
   "dependencies": {},
   "devDependencies": {
+    "assert": "*",
     "@babel/core": "*",
     "@babel/plugin-transform-runtime": "*",
-    "@babel/preset-react": "*",
     "babel-loader": "*",
     "typescript": "*",
     "eslint": "*",
@@ -15,5 +15,6 @@
     "dev": "webpack --mode development --watch",
     "prod": "webpack --mode production",
     "lint": "eslint src"
-  }
+  },
+  "type": "module"
 }
