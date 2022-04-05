@@ -10,6 +10,8 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "eol-last": [2, "always"],
+    "max-len": [2, {"code": 80}],
     "semi-style": [2, "last"],
     "@typescript-eslint/indent": [2, 4],
     "@typescript-eslint/strict-boolean-expressions": [
