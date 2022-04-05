@@ -14,13 +14,10 @@
     "max-len": [2, {"code": 80}],
     "semi-style": [2, "last"],
     "@typescript-eslint/indent": [2, 4],
-    "@typescript-eslint/strict-boolean-expressions": [
-      2,
-      {
+    "@typescript-eslint/strict-boolean-expressions": [2, {
         "allowNumber": false,
         "allowString": false
-      }
-    ]
+    }]
   },
   "ignorePatterns": []
 }
