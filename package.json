@@ -1,15 +1,16 @@
 {
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "assert": "*",
     "@babel/core": "*",
     "@babel/plugin-transform-runtime": "*",
     "babel-loader": "*",
     "typescript": "*",
-    "eslint": "*",
-    "@typescript-eslint/eslint-plugin": "*",
     "webpack": "*",
     "webpack-cli": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "@typescript-eslint/eslint-plugin": "*"
   },
   "scripts": {
     "dev": "webpack --mode development --watch",
